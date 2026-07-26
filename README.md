@@ -2,6 +2,8 @@
 
 A Slack-like real-time chat MVP built to demonstrate networking fundamentals, secure authentication, and professional SDLC practices.
 
+Repository: https://github.com/sudais-khan12/slack-lite
+
 ## Architecture
 
 ```mermaid
