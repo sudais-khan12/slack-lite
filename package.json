@@ -6,10 +6,10 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "npm run dev -w @slack-lite/server & npm run dev -w @slack-lite/web",
+    "dev": "node init && npm run dev -w @slack-lite/server & npm run dev -w @slack-lite/web",
     "dev:web": "npm run dev -w @slack-lite/web",
     "dev:server": "npm run dev -w @slack-lite/server",
-    "build": "npm run build -w @slack-lite/shared && npm run build -w @slack-lite/server && npm run build -w @slack-lite/web",
+    "build": "node init && npm run build -w @slack-lite/shared && npm run build -w @slack-lite/server && npm run build -w @slack-lite/web",
     "typecheck": "npm run typecheck -w @slack-lite/shared && npm run typecheck -w @slack-lite/server && npm run typecheck -w @slack-lite/web",
     "lint": "npm run lint -w @slack-lite/web"
   }
